@@ -20,13 +20,11 @@ package org.japo.java.main;
  * @author Sebastian Najarro Heredia - sebastian.najarro.alum@iescamp.es
  */
 public class Main {
+
     public static void main(String[] args) {
-         
-        final String FECHA="Fecha de inicio ....: %02d/%02d/%d";
-        
-        System.out.printf (FECHA + "%n",9,9,2019);
-        
+
+        System.out.printf("Fecha de inicio ....: %02d/%02d/%d%n", 9, 9, 2019);
+
     }
-   
-    
+
 }
